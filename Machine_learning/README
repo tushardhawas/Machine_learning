@@ -1,0 +1,39 @@
+# Invisible Cloak Program
+
+This Python program allows you to create the illusion of wearing an invisible cloak. You'll need to capture a background image and then use the program to make yourself appear "invisible" when wearing a black-colored cloak.
+
+## Prerequisites
+
+Before you get started, make sure you have the following:
+
+- Python installed on your system.
+- OpenCV library (usually installed using pip: `pip install opencv-python`).
+- A webcam to capture images.
+
+## Usage
+
+1. **Capture a Background Image**:
+   - Run the `capture_background.py` script. This script will capture the background image without you in it. You'll need to press the "q" key to save the background image.
+
+2. **Run the Invisible Cloak Program**:
+   - Run the `invisibleCloak.py` script. This script will use the captured background image and make anything black-colored (like a black cloak) appear as if it's invisible.
+
+3. **Wear a Black-Colored Cloak**:
+   - Make sure you're wearing a black-colored cloak or an object that is black.
+
+4. **See the Magic Happen**:
+   - Position yourself in front of your webcam with the black cloak on.
+   - The program should now make the black-colored object appear invisible against the captured background image.
+
+## Note
+
+- Make sure your lighting conditions remain relatively consistent when capturing the background image and running the program to achieve the best effect.
+- Experiment with the lighting and the position to achieve the best results.
+
+Enjoy your invisible cloak illusion!
+
+## Credits
+
+This project is inspired by various computer vision and image processing tutorials. Credit goes to the open-source community and the creators of the OpenCV library.
+
+Feel free to modify and enhance the program as you like and have fun with it!
